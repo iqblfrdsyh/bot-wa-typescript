@@ -12,6 +12,11 @@
       }
     ],
     "routes": [
+        {
+            "src": "/start-ai",
+            "dest": "/src/index.ts",
+            "headers": { "Content-Type": "text/plain" }
+          },
       {
         "src": "/(.*)",
         "dest": "/src/index.ts",
