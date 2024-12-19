@@ -1,15 +1,15 @@
-2024/12/20-01:14:19.421 48a0 Reusing MANIFEST C:\Iqbal\Development\Project NodeJS\bot-wa-ts\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2024/12/20-01:14:19.422 48a0 Recovering log #132
-2024/12/20-01:14:19.455 48a0 Reusing old log C:\Iqbal\Development\Project NodeJS\bot-wa-ts\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000132.log 
-2024/12/20-01:14:21.618 974 Level-0 table #138: started
-2024/12/20-01:14:21.649 974 Level-0 table #138: 267452 bytes OK
-2024/12/20-01:14:21.651 974 Delete type=0 #132
-2024/12/20-01:14:21.664 974 Manual compaction at level-0 from '\x00,\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00-\x00\x00\x00' @ 0 : 0; will stop at (end)
-2024/12/20-01:14:23.335 41c8 Compacting 1@1 + 2@2 files
-2024/12/20-01:14:23.426 41c8 Generated table #139@1: 57729 keys, 2227305 bytes
-2024/12/20-01:14:23.506 41c8 Generated table #140@1: 41955 keys, 2090678 bytes
-2024/12/20-01:14:23.506 41c8 Compacted 1@1 + 2@2 files => 4317983 bytes
-2024/12/20-01:14:23.516 41c8 compacted to: files[ 0 0 2 0 0 0 0 ]
-2024/12/20-01:14:23.516 41c8 Delete type=2 #134
-2024/12/20-01:14:23.516 41c8 Delete type=2 #135
-2024/12/20-01:14:23.517 41c8 Delete type=2 #138
+2024/12/20-01:20:54.547 4754 Reusing MANIFEST C:\Iqbal\Development\Project NodeJS\bot-wa-ts\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/12/20-01:20:54.548 4754 Recovering log #137
+2024/12/20-01:20:54.627 4754 Reusing old log C:\Iqbal\Development\Project NodeJS\bot-wa-ts\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000137.log 
+2024/12/20-01:20:56.443 a90 Level-0 table #143: started
+2024/12/20-01:20:56.456 a90 Level-0 table #143: 346006 bytes OK
+2024/12/20-01:20:56.457 a90 Delete type=0 #137
+2024/12/20-01:20:56.458 a90 Manual compaction at level-0 from '\x00-\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00.\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/12/20-01:20:58.223 ec8 Compacting 1@1 + 2@2 files
+2024/12/20-01:20:58.319 ec8 Generated table #144@1: 58607 keys, 2228371 bytes
+2024/12/20-01:20:58.401 ec8 Generated table #145@1: 42094 keys, 2125415 bytes
+2024/12/20-01:20:58.401 ec8 Compacted 1@1 + 2@2 files => 4353786 bytes
+2024/12/20-01:20:58.402 ec8 compacted to: files[ 0 0 2 0 0 0 0 ]
+2024/12/20-01:20:58.402 ec8 Delete type=2 #139
+2024/12/20-01:20:58.403 ec8 Delete type=2 #140
+2024/12/20-01:20:58.403 ec8 Delete type=2 #143
