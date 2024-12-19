@@ -46,10 +46,8 @@ app.get('/', async (req:any, res:any) => {
     });
   try {
     await client.initialize();
-    res.setHeader('Content-Type', 'text/plain');
     res.status(200).send('Bot initialized successfully.');
   } catch (error) {
-    res.setHeader('Content-Type', 'text/plain');
     console.error('Error initializing bot:', error);
     res.status(500).send('Error initializing bot.');
   }
