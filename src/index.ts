@@ -1,10 +1,7 @@
-const express = require("express")
 import { Client, LocalAuth } from 'whatsapp-web.js';
 import qrcode from 'qrcode-terminal';
 import commands from './commands';
-
-const app = express();
-const port = 8174; 
+import { VercelRequest, VercelResponse } from '@vercel/node';
 
 const client = new Client({
   restartOnAuthFail: true,
@@ -38,12 +35,13 @@ client.on('ready', () => {
 });
 
 client.on('message', (msg) => {
-   for (const command of commands){
-        command.handle(msg);
-    }
+  for (const command of commands) {
+    command.handle(msg);
+  }
 });
 
-app.get('/', async (req:any, res:any) => {
+// Vercel function handler
+export default async (req: VercelRequest, res: VercelResponse) => {
   try {
     await client.initialize();
     res.status(200).send('Bot initialized successfully.');
@@ -51,8 +49,4 @@ app.get('/', async (req:any, res:any) => {
     console.error('Error initializing bot:', error);
     res.status(500).send('Error initializing bot.');
   }
-});
-
-app.listen(port, () => {
-  console.log(`Server berjalan di http://localhost:${port}`);
-});
+};
