@@ -1,0 +1,4 @@
+2024/12/20-00:39:03.910 2bbc Reusing MANIFEST C:\Iqbal\Development\Project NodeJS\bot-wa-ts\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/12/20-00:39:03.910 2bbc Recovering log #119
+2024/12/20-00:39:03.923 2bbc Reusing old log C:\Iqbal\Development\Project NodeJS\bot-wa-ts\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000119.log 
+2024/12/20-00:39:08.231 2ea4 Manual compaction at level-0 from '\x00(\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00)\x00\x00\x00' @ 0 : 0; will stop at (end)
