@@ -29,7 +29,7 @@ const client = new Client({
 });
 
 
-app.get('/', async (req:any, res:any) => {
+app.get('/start-ai', async (req:any, res:any) => {
     client.on('qr', (qr) => {
       console.log('QR Code generated:');
       qrcode.generate(qr, { small: true });
