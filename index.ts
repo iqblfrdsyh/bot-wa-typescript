@@ -27,7 +27,7 @@ const client = new Client({
     ],
   },
   authStrategy: new LocalAuth({
-    dataPath: "./temp",
+    dataPath: "./tmp",
   }),
 });
 
