@@ -8,7 +8,6 @@ const port = 8174;
 
 const client = new Client({
   restartOnAuthFail: true,
-
   webVersionCache: {
     type: "remote",
     remotePath:
@@ -28,7 +27,7 @@ const client = new Client({
     ],
   },
   authStrategy: new LocalAuth({
-    dataPath: "/.wwebjs_auth",
+    dataPath: "./temp",
   }),
 });
 
