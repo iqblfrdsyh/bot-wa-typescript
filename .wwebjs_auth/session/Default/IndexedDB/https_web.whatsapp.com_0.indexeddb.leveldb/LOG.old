@@ -1,0 +1,18 @@
+2024/12/21-01:08:37.959 31c4 Reusing MANIFEST C:\Iqbal\Development\Project NodeJS\bot-wa-ts\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/12/21-01:08:37.959 31c4 Recovering log #231
+2024/12/21-01:08:38.074 31c4 Reusing old log C:\Iqbal\Development\Project NodeJS\bot-wa-ts\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000231.log 
+2024/12/21-01:08:42.804 a28 Level-0 table #238: started
+2024/12/21-01:08:42.819 a28 Level-0 table #238: 679591 bytes OK
+2024/12/21-01:08:42.820 a28 Delete type=0 #231
+2024/12/21-01:08:42.820 a28 Manual compaction at level-0 from '\x000\x00\x00\x00' @ 72057594037927935 : 1 .. '\x001\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/12/21-01:08:44.823 31c4 Compacting 1@1 + 4@2 files
+2024/12/21-01:08:45.063 31c4 Generated table #239@1: 58623 keys, 2226454 bytes
+2024/12/21-01:08:45.241 31c4 Generated table #240@1: 34070 keys, 2196509 bytes
+2024/12/21-01:08:45.329 31c4 Generated table #241@1: 39734 keys, 1356927 bytes
+2024/12/21-01:08:45.329 31c4 Compacted 1@1 + 4@2 files => 5779890 bytes
+2024/12/21-01:08:45.331 31c4 compacted to: files[ 0 0 3 0 0 0 0 ]
+2024/12/21-01:08:45.331 31c4 Delete type=2 #166
+2024/12/21-01:08:45.332 31c4 Delete type=2 #233
+2024/12/21-01:08:45.332 31c4 Delete type=2 #234
+2024/12/21-01:08:45.332 31c4 Delete type=2 #235
+2024/12/21-01:08:45.332 31c4 Delete type=2 #238
