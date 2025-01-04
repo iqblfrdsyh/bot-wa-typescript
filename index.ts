@@ -45,12 +45,16 @@ client.on("message", (msg) => {
 });
 
 app.get("/", async (req: any, res: any) => {
-  try {
-    await client.initialize();
-    res.status(200).send("Bot initialized successfully.");
-  } catch (error) {
-    console.error("Error initializing bot:", error);
-    res.status(500).send("Error initializing bot.");
+  if (req.method === "GET") {
+    try {
+      await client.initialize();
+      res.status(200).send("Bot initialized successfully.");
+    } catch (error) {
+      console.error("Error initializing bot:", error);
+      res.status(500).send("Error initializing bot.");
+    }
+  } else {
+    res.status(405).send("Method Not Allowed");
   }
 });
 
