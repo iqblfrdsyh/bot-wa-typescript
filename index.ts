@@ -27,7 +27,7 @@ const client = new Client({
     ],
   },
   authStrategy: new LocalAuth({
-    dataPath: "/var/task/tmp/",
+    dataPath: "./var/task/tmp/",
   }),
 });
 
