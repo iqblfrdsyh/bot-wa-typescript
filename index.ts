@@ -8,6 +8,7 @@ const port = 8174;
 
 const client = new Client({
   restartOnAuthFail: true,
+
   webVersionCache: {
     type: "remote",
     remotePath:
@@ -26,7 +27,9 @@ const client = new Client({
       "--disable-gpu",
     ],
   },
-  authStrategy: new LocalAuth(),
+  authStrategy: new LocalAuth({
+    dataPath: "/.wwebjs_auth",
+  }),
 });
 
 client.on("qr", (qr) => {
